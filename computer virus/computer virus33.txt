@@ -1,0 +1,27 @@
+computer virus33.txt
+
+Jordan Bradley, 20, and Andrew Harvey, 22, were arrested in February following a joint investigation by specialist police officers from Britain and the United States.
+
+Bradley, of Bates Avenue, Darlington, and Harvey, of Scardale Way, Belmont, Co Durham, are due to appear before magistrates in Consett on 18 September.
+
+The two men are accused of being part of an
+international gang of computer hackers known as the THr34t-Krew.
+
+The offences are alleged to have taken place between 1 January 2002 and February 2003, a National Hi-Tech Crime Unit spokeswoman said.
+
+
+
+The charges allege they conspired together and with others, to effect unauthorised modifications to the contents of computers, with the intent to impair the operation of those computers.
+
+The THr34t-Krew group is thought to be behind the creation of the TK web worm that used internet chat channels to attack other computers. 
+
+The National Hi-Tech Crime Unit says the worm infected more than 18,000 computers. 
+
+The worm created by the THr34t-Krew infected machines by exploiting a vulnerability in some Microsoft software. 
+
+It was designed to provide a backdoor into any computer that had it installed. 
+
+The National Hi-Tech Crime Unit says that the TK worm caused up to £5.5m of disruption.
+
+
+ E BO 

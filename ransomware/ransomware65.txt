@@ -1,0 +1,2 @@
+ransomware65.txt
+Security experts say a sharp increase in ransomware attacks is in part a result of how easy the malware is to acquire.Researchers at Cylance and AlienVault were able to find off-the-shelf ransomware using a normal search engine, which could then be used to lock victims' computer files and blackmail them.© 2021 BBC. The BBC is not responsible for the content of external sites.  

@@ -1,0 +1,15 @@
+computer virus94.txt
+IT experts disconnected GMP from the Police National Computer (PNC) after finding the conficker virus on Friday. It means officers have been asking neighbouring forces to carry out national checks on names and vehicles. The conficker virus, a malicious worm, is believed to have infected up to 15 million computers around the world.  E SF It was identified in the GMP system on Friday and quickly spread through the force, leading to the decision to cut off access to the PNC. 
+ S IBOX 
+
+ E IBOX 
+Assistant Chief Constable Dave Thompson said the virus was not destructive and no data had been lost. "A team of experts is now working on removing the virus, and will not reconnect until we are sure there is no further threat," he said. "We have systems in place to ensure this does not affect our service to the communities of Greater Manchester. "At this stage it is not clear where the virus has come from but we are investigating how this has happened and will be taking steps to prevent this from happening again." Conficker initially worked by exploiting a vulnerability in the Windows Server service, which Microsoft combated with a security update. However, the virus can spread via portable devices such as memory sticks.  E BO 
+
+
+
+
+Print Sponsor
+
+
+
+ | ";

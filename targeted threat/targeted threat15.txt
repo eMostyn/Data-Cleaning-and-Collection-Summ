@@ -1,0 +1,84 @@
+targeted threat15.txt
+
+
+
+With the superbug also becoming more resistant to antibiotics, researchers are in a race for new ways to counter it. 
+
+Microbe USA300 has already swept through more than 25 different states in the USA, infecting children, college students, and even athletes.
+
+One incident involved several members of the St Louis' Ram's Football team.
+ E SF 
+
+The infection is easily spread, highly resistant to drugs and much more virulent than ordinary MRSA as it can cause the victim to suffer a nasty flesh-eating condition called necrotizing fasciitis.
+
+According to the Centre for Disease Control in Atlanta, USA300 is fast becoming the dominant form of MRSA in the community.
+
+"USA 300 is unique because it is capable of acquiring multi-drug resistance" said Dr Binh Diep, part of a team at the University of California at San Francisco, who sequenced the genome of USA300 earlier this year.
+
+"This particular clone that we sequenced carried resistance to four different classes of antibiotic." 
+
+
+
+Dr Diep's team think they have discovered how this particular strain or clone of MRSA has become so adept at resisting antibiotics.
+
+ S IBOX 
+
+ E IBOX 
+
+Its DNA contains what Dr Diep calls "a mobile genetic element" - a part of its genome whose job it is to acquire DNA from other microbes including those that already live benignly on human skin.
+
+It is hoped that working back through the genetic changes which have turned ordinary MRSA into USA300 might yield a treatment in the future.
+
+But what do we do in the meantime?
+
+In his microbiology lab at Nottingham University,  Dr Paul Williams talks casually about experimenting on his favourite microbes - plague, dysentery, E. coli and MRSA to name a few.
+
+"The kind of work we do here in Nottingham is to try to turn a nasty pathogenic bug into a nice happy microbe who doesn't cause any harm." 
+
+The secret, explains Dr Williams is to unlock the mysterious process known as quorum sensing.
+
+It was a term coined about 15 years ago in Nottingham by a late colleague of Dr Williams, and refers to the way bacterium, once thought of as individuals rather than a community of organisms, can communicate with one another and make a decision.
+
+"As the bacteria begin to grow they produce low levels of a signal molecule.
+
+"As that concentration of the molecule accumulates, it allows more and more cells to sense there are more bacteria present.
+
+"When that reaches a critical threshold concentration then bang! The bacteria say: 'OK there is a enough of us here, we can really make a difference and cause some trouble'."
+
+
+
+This phenomenon has been called 'quorum sensing' with the idea very much in the context of a board of directors where the company have to make a decision and can only do it when the board is quorate - when there are enough of them there to make that decision binding.
+
+ S IBOX 
+
+ E IBOX 
+
+Dr Williams said: "It is the same in the bacterial world - you need enough cells there to make a decision that is binding."
+
+The idea is to interfere with this communication process, prevent a decision and turn a nasty pathogen into a friendly well-behaved microbe that doesn't cause disease.
+
+"We can either destroy the signal molecule or the receptor that senses the presence of signal molecule - then we have a new set of [treatment] targets but the important thing is we're not trying to kill the micro-organism, we're trying to reform it - turning off that bad behaviour, a little bit like a bacterial ASBO." 
+
+Once an obscure corridor of microbiology, quorum sensing is now centre stage with research teams across both Europe and the US. 
+
+But researchers hoping to exploit the secrets of bacterial communication say it could take a decade.
+
+
+
+The threat of MRSA in the community is more immediate.
+
+Right now, the Health Protection Agency aren't overly concerned.
+
+Last year there were only about 100 official cases of community MRSA registered in the UK with the HPA.
+
+But the most worrying scenario according to Professor Richard James, also at Nottingham's Centre for Biomolecular Sciences is an outbreak of Community MRSA off the back of a flu epidemic. 
+
+Already about 30% to 40% of the general population carry the MRSA bug in their noses, without any ill effects. 
+
+It is only when there is a vulnerability - a wound, a graze - some way for the microbe to get into the body, that there is a risk of infection. 
+
+Recent research from US investigators in Baltimore, has concluded that there is a strong link between influenza and the risk of falling victim to the most severe form of MRSA.
+
+Professor James said: "The real doomsday scenario now is that you have an increasing number of young fit people with Community MRSA, you have a flu epidemic that makes the lungs more susceptible to infection and then the MRSA will actually kill people very quickly." 
+
+ | ";

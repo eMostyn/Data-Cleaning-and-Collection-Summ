@@ -1,0 +1,15 @@
+computer virus90.txt
+IT experts disconnected GMP from the Police National Computer (PNC) after finding the conficker virus on Friday. Officers had to ask neighbouring forces to carry out national checks on names and vehicles. The force said it is now investigating where the virus came from. Conficker is thought to have affected about 15m computers worldwide.  E SF 
+ S IBOX 
+
+ E IBOX 
+Assistant Chief Constable Dave Thompson said all its computers are now fully operational. "It is not destructive and no data has been lost but due to the speed it had spread and we temporarily cut off our access to the Police National Computer and other Criminal Justice systems to prevent further infection," he said. "We had systems in place to ensure this did not affect our service to the communities of Greater Manchester." Conficker initially worked by exploiting a vulnerability in the Windows Server service, which Microsoft combated with a security update. However, the virus can spread via portable devices such as memory sticks.  E BO 
+
+
+
+
+Print Sponsor
+
+
+
+ | ";

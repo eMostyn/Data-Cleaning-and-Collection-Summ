@@ -1,0 +1,41 @@
+spyware37.txt
+
+ S IBYL 
+
+ E IBYL 
+
+You look everywhere on the web nowadays and it is all about sharing media. So, what happens when you try to share something, and cannot?
+
+
+The solution you want could be two different things, so I will tell you both of them just in case.
+First, if you want them to see just the presentation slides, then save your presentation as a Powerpoint show.
+After you have prepared your presentation in Microsoft PowerPoint, go to the file menu and choose 'Save As'. Choose a filename as normal, but instead of saving it as a PPT file, as you would normally, drop down the menu and choose PowerPoint Show - it has a PPS file extension.
+When you open that PPS file, it will immediately show your slides full screen.
+This method is sometimes used by people who think that they can prevent people editing their slides - that is not true.
+Second, if you have a PowerPoint file, but the person viewing it does not have PowerPoint installed on their computer, then they need to download the free PowerPoint viewer from Microsoft (http://tinyurl.com/5y728).
+
+"I haven't got round to downloading Service Pack 2 for Windows XP, I run the ZoneAlarm firewall which was free and probably not the best firewall out there, but it's better than nothing. I also have Spybot Search & Destroy. With the service pack, will I be able to do away with these and rely on Windows?" 
+
+Service Pack 2 was an important update for Windows XP over two years ago, which fixed some bugs and added a significant amount of additional security features to prevent online attacks on Windows machines.
+One of these is firewall software which controls how your computer connects to the internet, and stops anything coming in without your permission.
+But it is pretty basic and if you are used to ZoneAlarm, carry on using it, it is one of the best free firewalls out there, although I notice that the free version is considerably more difficult to find on their website than it used to be, so here it is: www.zonealarm.com/store/content/catalog/products/sku_list_za.jsp
+Incidentally, the new version of Microsoft Windows Vista, does include a much more fully featured firewall so we will take a closer look at that, and other Vista features, in a few weeks.
+
+Spyware is software which is loaded onto your computer without your knowledge, or possibly without the full functionality being made clear to you. It can, among other things, slow your internet connection down and make frustrating changes to your browser.
+
+
+I would be very cautious of any piece of software which first suggested that you had alarming sounding faults on your computer, and then tried to get you to part with $30. In some cases software which scares you into installing it can turn out to be exactly the kind of spyware they claim to protect you against!
+Besides, many good anti-spyware programs are free and Liam in Portsmouth is already using a good one.
+Spybot Search and Destroy is free and simple to use (www.spybot.info).
+
+Microsoft do now have their own Anti-Spyware software which changed its name recently to Windows Defender. It is also free.
+I like it. It is simple to use, and you can schedule regular scans for spyware, just like Anti-virus software, and best of all, updates are free and come automatically. But you must verify that your copy of Windows is genuine before Microsoft will let you download it (www.microsoft.com/defender).
+If you have Windows XP, but not Service Pack 2, you can get it from Windows Update (http://windowsupdate.microsoft.com).
+It is an enormous download, so only to be tried if you have got broadband, and it may slow your computer down a little.
+However, I think the firewall protection is the most important part of the upgrade, so if you are running up to date firewall software then you might be able to do without Service Pack 2, but it really is recommended.
+ E BO 
+
+
+
+
+ | ";

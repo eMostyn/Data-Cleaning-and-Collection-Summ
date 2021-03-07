@@ -1,0 +1,60 @@
+encryption96.txt
+
+Scientists have shown that it is possible to recover the key that unscrambles data from a PC's memory. 
+
+It was previously thought that data held in so-called "volatile memory" was only retained for a few seconds after the machine was switched off. 
+
+But the team found that data including encryption keys could be held and retrieved for up to several minutes.
+ E SF 
+
+"It was widely believed that when you cut the power to the computer that the information in the volatile memory would disappear, and what we found was that was not the case," Professor Edward Felten of the University of Princeton told BBC World Service's Digital Planet programme. 
+
+Volatile memory is typically used in random access memory (RAM), which is used as temporary storage for programs and data when the computer is switched on. 
+
+
+
+Disc encryption is the main method by which companies and governments protect sensitive information. 
+
+"The key to making it work is to keep the encryption key secret," explained Professor Felten. 
+
+Encryption has recently become a hot topic after a number of laptops containing personal records were lost or stolen. 
+
+ S IBOX 
+
+ E IBOX 
+
+"What we have found was that the encryption keys needed to access these encrypted files were available in the memory of laptops," he said. 
+
+"The information was available for seconds or minutes." 
+
+In theory, this is enough time for a hacker or attacker to retrieve the key from the memory chips. 
+
+"The real worry is that someone will get hold of your laptop either while it is turned on or while it is in sleeping or hibernation mode," said Professor Felten. 
+
+In these modes the laptop is not running, but information is still stored in RAM to allow it to "wake up" quickly. 
+
+"The person will get the laptop, cut the power and then re-attach the power, and by doing that will get access to the contents of memory - including the critical encryption keys." 
+
+
+
+Switching the machine off and on is critical to any attack. 
+
+"When it comes out of sleep mode the operating system is there and it is trying to protect this data," explained Professor Felten. 
+
+But a full power-down followed by a swift re-start removes this protection. 
+
+"By cutting the power and then bringing it back, the adversary can get rid of the operating system and get access directly to the memory." 
+
+Professor Felten and his team found that cooling the laptop enhanced the retention of data in memory chips. 
+
+"The information stays in the memory for much longer - 10 minutes or more," he said. 
+
+For example, where information stays in a computer for around 15 seconds under normal conditions, a laptop cooled to about -50C will keep information in its memory for 10 minutes or more. 
+
+Professor Felten said that the best way to protect a computer was to shut it down fully several minutes before going into any situation in which the machine's physical security could be compromised. 
+
+"Simply locking your screen or switching to 'suspend' or 'hibernate' mode will not provide adequate protection," he added. 
+
+"It does cast some doubt on the value of encryption. I think that over time the encryption products will adapt to this and they will find new ways of protecting information." 
+ E BO 
+Download or subscribe to this programme's podcast | ";

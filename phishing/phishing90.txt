@@ -1,0 +1,35 @@
+phishing90.txt
+
+Fraudsters have sent out "phishing" emails, purporting to come from an entity called HMRC Premier Services.
+
+They offer a tax repayment to be paid directly to a debit or credit card - as long as people go to the site and reveal their card numbers.  
+
+The HMRC warned that the website was bogus, and said it was very concerned about the fraud.
+ E SF 
+
+A spokesman said it was the first time the organisation had been the target of such a phishing exercise.
+
+"We are very worried," he said. "This is a very well thought out and constructed scam," he said.
+
+HMRC first became aware of the fraudulent emails earlier this week, but said it had no idea yet if anyone had been fooled or lost any money.
+
+"We have had people calling our contact centres asking if this was legitimate or not," said the spokesman.
+
+
+
+The emails claim that the HMRC has conducted a review of the person's tax affairs and has found that they are due a rebate of £70.
+
+ S IIMA 
+
+ E IIMA 
+
+They are invited to click on a link in the email which then takes them to a bogus web site, mocked up to look like the front page of the HMRC's own main site.
+
+There, they are told to fill in a form which asks for a social security number, tax reference code, name and address, telephone number.
+
+Crucially, though, it also  asks for details of the person's debit or credit card to which the bogus rebate can be credited.
+
+A further click would mean those details would be sent off directly to the fraudsters.
+
+The HMRC said it had referred the matter to the police, and was trying to close down the bogus web site which is hosted on a server based in France. E BO 
+ | ";

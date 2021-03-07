@@ -1,0 +1,64 @@
+computer virus44.txt
+
+Anti-virus software companies are reporting an increase in calls to them compared to Friday, the first day of the epidemic in Europe and the US. The virus has also spread to the Far East and South America.
+
+
+It has also become apparent that the virus, which destroys files, scans computers for network connections and exploits these to cause further damage. This means all files on shared drives are in danger if only one connected computer activates the virus.
+
+
+"It only takes one infected computer to rapidly spread within a company," said Mark Zajicek, a member of the Computer Emergency Response Team at Carnegie Mellon University, US. "That helps explain what we've been seeing - that the program wasn't spreading from site to site as quickly as it was within a site."
+
+
+
+
+The main method of virus infection was initially a seemingly friendly e-mail that tricked the recipient into opening an infected file and starting the virus program.
+
+
+But the researchers at Carnegie Mellon found that the virus would reappear seconds after being removed from a computer - if that machine was linked to another infected machine.
+
+
+It is now likely to take weeks rather than days to conquer the virus says Dan Schrader at Trend Micro, a maker of anti-virus software.
+
+
+But he admitted it was "a very complex bit of code" and even his own company fell prey to the virus.
+
+
+
+
+The virus propagates in the same way as the Melissa virus that infected computers worldwide earlier this year.
+
+
+It uses your e-mail address books to send itself to people you correspond with. They get a personalised message which appears to come from you. 
+
+
+This can give people a false sense of security, leading them to forget a golden rule of virus protection - do not open files unless you are certain where they have come from.
+
+
+Unlike the Melissa virus, the Explore.Zip virus carries a destructive payload. It not only destroys Microsoft software files including Word, Excel and Powerpoint files but also several types of programming code files (*.c, *.cpp, and *.asm) which are much harder to replace.
+
+
+
+
+Furthermore, Catherine Hampton from the alt.comp.virus newsgroup says that "it deletes files in a special way which means they can't be recovered by any of the normal file undelete or file recovery software available."
+
+
+Computers which use alternatives (e.g. Linux) to Microsoft operating systems are not affected by the virus.
+
+
+The impact of the virus on the many businesses affected is still being assessed. But the cost of recovering or replacing lost data, disinfecting computer systems and lost working time is likely to be huge. 
+
+
+Malicious viruses are becoming a regular burden on businesses and police authorities are putting a lot of effort into tracing the creator of Explore.Zip. 
+
+The people behind the recent Melissa and Chernobyl viruses were quickly caught, but there is no reported progress in the current case.
+
+
+
+
+
+
+
+ Begin iStats CPS v2 Legacy code 20110330 (UX-CMC 1.1009.3) 
+
+
+ End iStats (UX-CMC) 
