@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 import os
 import math
 import openpyxl
+import xlsxwriter as xls
 import numpy as np
 import time
 keywords = ["targeted threat","Advanced Persistent Threat","phishing","DoS attack","malware","computer virus","spyware","malicious bot","ransomware","encryption"]
@@ -134,13 +135,39 @@ def problem3(keywords):
         #words.extend(keywordVector.keys())
         keywordDocuments.append(keywordDocument)
     start = time.time()
-    #idf = inverseDocumentFrequencys(words,documents)
-    #print(idf,time.time()-start)
+
+    similarities = []
     for i in range(0,len(keywordVectors)-1):
+        keywordSim = []
         for j in range(i+1,len(keywordVectors)):
-            print("Similarity between: "+keywords[i] + " & "+keywords[j]+ " "+ str(getSim(keywordVectors[i],keywordVectors[j],keywordDocuments[i]+keywordDocuments[j])))
-    print(len(keywordVectors))
-    return
+            sim = pearsonSimilarity(keywordVectors[i],keywordVectors[j],keywordDocuments[i]+keywordDocuments[j])
+            print("Similarity between: "+keywords[i] + " & "+keywords[j]+ " "+ str(sim))
+            keywordSim.append(sim)
+        similarities.append(keywordSim)
+
+    #print(similarities)
+
+    workbook = xls.Workbook('distance.xlsx')
+    worksheet = workbook.add_worksheet()
+    worksheet.write(0,0,"Keywords")
+    xPos = 0
+    for i in range(0,len(keywords)):
+        worksheet.write(0,i+1,keywords[i])
+        worksheet.write(i+1,0,keywords[i])
+        worksheet.write(i+1, i+1, 0)
+    startingX = 0
+    xPos = 0
+    yPos = 0
+    for i in range(0,len(similarities)):
+        yPos += 1
+        startingX += 1
+        xPos = startingX
+        for j in range(0,len(similarities[i])):
+            xPos +=  1
+            #print(similarities[i][j])
+            worksheet.write(yPos, xPos, similarities[i][j])
+            worksheet.write(xPos, yPos, similarities[i][j])     
+    workbook.close()
 
 
 def getVector(inputData):
@@ -181,17 +208,18 @@ def getSim(x,y,documents):
     similarity = top/(xTotal*yTotal)
     return similarity
         
-def pearsonSimilarity(x,y):
+def pearsonSimilarity(x,y,documents):
     mergedDict = {**x, **y}
+    idf = inverseDocumentFrequency(mergedDict.keys(),documents)
     comparisons = []
     for word in mergedDict.keys():
         toAdd = []
         if word in x:
-            toAdd.append(x[word])
+            toAdd.append(x[word]*idf[word])
         else:
             toAdd.append(0)
         if word in y:
-            toAdd.append(y[word])
+            toAdd.append(y[word]*idf[word])
         else:
             toAdd.append(0)
         comparisons.append(toAdd)
