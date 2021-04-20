@@ -1,0 +1,1 @@
+An ethical hacking expert shows the BBC what happens when the WannaCry ransomware hits a PC. Colin McLean, from Abertay University, carried out the demonstration in an offline environment. The computer malware is thought to have spread to 150 countries after it began to take control of users' files on Friday, demanding $300 (£230) to restore access.   

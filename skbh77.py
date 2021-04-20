@@ -7,22 +7,24 @@ import openpyxl
 import xlsxwriter as xls
 import numpy as np
 import time
-keywords = ["targeted threat","Advanced Persistent Threat","phishing","DoS attack","malware","computer virus","spyware","malicious bot","ransomware","encryption"]
+import matplotlib.pyplot as plt
+import seaborn
+import pandas as pd
+#keywords = ["targeted threat","Advanced Persistent Threat","phishing","DoS attack","malware","computer virus","spyware","malicious bot","ransomware","encryption"]
 
             
 def problem1():
     keywords = []
     keywordsBook = openpyxl.load_workbook(filename = "keywords.xlsx")
     sheet=keywordsBook.active
-    yPos = 1
-    newKeyword = sheet['A1'].value
+    yPos = 2
+    newKeyword = sheet['A2'].value
     while(newKeyword != None):
         keywords.append(newKeyword)
         yPos+=1
         newKeyword = sheet['A'+str(yPos)].value
         print(newKeyword)
     print(keywords)
-    return
     
     url = "https://www.bbc.co.uk/search"
     articles = []
@@ -107,10 +109,7 @@ def problem2(articles,keywords):
                 file.write(element)
             file.close()
     
-#articleData,keywords = problem1()
-##print("done")
-##problem2(articleData, keywords)
-##print("done2")
+
 
 
 def problem3(keywords):
@@ -239,7 +238,103 @@ def inverseDocumentFrequency(dictionary, documents):
         for document in documents:
             if word in document:
                 idf[word] += 1
-        idf[word] = math.log(len(documents)/idf[word])
+        idf[word] = math.log(1+(len(documents)/idf[word]))
     return idf
+
+def problem4():
+    data = pd.read_excel('distance.xlsx',header = 0,index_col=0)
+    #data.set_index('Keywords')
+    print(data)
+    
+    seaborn.set_theme()
+    # Load the example flights dataset and convert to long-form
+    flights_long = seaborn.load_dataset("flights")
+    flights = flights_long.pivot("month", "year", "passengers")
+    print(flights)
+    
+
+    seaborn.heatmap(data,vmin = 0,vmax = 2);
+    # Draw a heatmap with the numeric values in each cell
+
+##    seaborn.heatmap(flights, annot=True, fmt="d", linewidths=.5, ax=ax)
+    plt.show()
+
+def test():
+    keywords = []
+    keywordsBook = openpyxl.load_workbook(filename = "keywords.xlsx")
+    sheet=keywordsBook.active
+    yPos = 2
+    newKeyword = sheet['A2'].value
+    while(newKeyword != None):
+        keywords.append(newKeyword)
+        yPos+=1
+        newKeyword = sheet['A'+str(yPos)].value
+    print(keywords)
+    
+    url = "https://edition.cnn.com/search"
+    articles = []
+    for keyword in keywords:
+        print(keyword)
+        keywordArticles = []
+        page = 0
+        moreResults = True
+        while len(keywordArticles) < 100 and moreResults:
+            moreResults = False
+            page += 1
+            values = {'q':keyword}
+            #print(values)
+            data = urllib.parse.urlencode(values)
+            req = urllib.request.Request(url+'?'+data)
+            print(url+'?'+data)
+            resp = urllib.request.urlopen(req)
+            respData = resp.read()
+            print(respData)
+            
+            soup = BeautifulSoup(respData,features="html.parser")
+            divs = soup.findAll('div',attrs={'class':'cnn-search__result-contents'})
+            #links = soup.find_all('a')
+            for div in divs:
+                print("here")
+                link = div.findall('a')
+                result = link.get('href')
+                print(result)
+                return
+                if  len(keywordArticles) == 100:
+                    moreResults = False
+                    break
+                elif "news" in result or "sport" in result:
+                #elif "programme" not in result and "/sound" not in result and "/search"  not in result and "/iplayer" not in result and "/guide" not in result and "/blogs" not in result /learning_english ,/education:
+                    keywordArticles.append(result)
+                    moreResults = True
+                    #print(result)
+        articles.append(keywordArticles)
+
+    for i in range(0,len(articles)):
+        print(keywords[i],len(articles[i]))
         
+    keywordData = []
+    keywordIndex = -1
+    for keywordArticles in articles:
+        keywordIndex += 1
+        articleData = []
+        file = open(keywords[keywordIndex]+"/"+"urls.txt", "w",encoding='utf-8')
+        i=0
+        for article in keywordArticles:
+            i+=1
+            url =  article
+            file.write(str(i)+": "+url+"\n")
+            #print(url)
+            req = urllib.request.Request(url)
+            resp = urllib.request.urlopen(req)
+            data = resp.read()
+            articleData.append(data)
+        keywordData.append(articleData)
+
+    return keywordData,keywords
+articleData,keywords = problem1()
+print("done")
+problem2(articleData, keywords)
+print("done2")
 problem3(keywords)   
+problem4()
+#test()

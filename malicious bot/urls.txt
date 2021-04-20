@@ -1,9 +1,0 @@
-1: https://www.bbc.co.uk/news/business-51208154
-2: https://www.bbc.co.uk/news/newsbeat-32970548
-3: https://www.bbc.co.uk/news/technology-47955820
-4: http://www.bbc.co.uk/news/technology-43144717
-5: http://www.bbc.co.uk/news/technology-43170859
-6: http://news.bbc.co.uk/1/hi/technology/4520766.stm
-7: http://news.bbc.co.uk/1/hi/technology/4105007.stm
-8: http://news.bbc.co.uk/1/hi/technology/6752853.stm
-9: http://news.bbc.co.uk/1/hi/technology/6331959.stm
